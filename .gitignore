@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+.venv/
+.vercel/
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pdf

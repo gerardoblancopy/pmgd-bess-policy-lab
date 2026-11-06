@@ -1,0 +1,142 @@
+{
+  "seed": 42,
+  "n_paths": 5000,
+  "regimes": {
+    "historical_flat": {
+      "pv": {
+        "option_value": 2055688.0625600852,
+        "exercise_rate": 1.0,
+        "mean_exercise_time": 0.0,
+        "immediate_npv": 2055688.0625600452,
+        "immediate_decision_value": 2055688.0625600452,
+        "pure_deferral_premium": 4.0046870708465576e-08,
+        "gain_vs_forced_immediate": 4.0046870708465576e-08,
+        "avoided_negative_npv": 0.0
+      },
+      "joint": {
+        "option_value": 4388144.71761882,
+        "exercise_rate": 1.0,
+        "mean_exercise_time": 0.0,
+        "immediate_npv": 4388144.717618762,
+        "immediate_decision_value": 4388144.717618762,
+        "pure_deferral_premium": 5.8673322200775146e-08,
+        "gain_vs_forced_immediate": 5.8673322200775146e-08,
+        "avoided_negative_npv": 0.0
+      }
+    },
+    "spot_only": {
+      "pv": {
+        "option_value": 374322.8165418107,
+        "exercise_rate": 0.1574,
+        "mean_exercise_time": 7.271918678526048,
+        "immediate_npv": -2339821.3670047875,
+        "immediate_decision_value": 0.0,
+        "pure_deferral_premium": 374322.8165418107,
+        "gain_vs_forced_immediate": 2714144.183546598,
+        "avoided_negative_npv": 2339821.3670047875
+      },
+      "joint": {
+        "option_value": 929210.0637190945,
+        "exercise_rate": 0.3022,
+        "mean_exercise_time": 6.167438782263401,
+        "immediate_npv": -1204434.6690537794,
+        "immediate_decision_value": 0.0,
+        "pure_deferral_premium": 929210.0637190945,
+        "gain_vs_forced_immediate": 2133644.7327728737,
+        "avoided_negative_npv": 1204434.6690537794
+      }
+    },
+    "fixed_mep_no_restitution": {
+      "pv": {
+        "option_value": 366264.39474136406,
+        "exercise_rate": 0.4264,
+        "mean_exercise_time": 4.798780487804878,
+        "immediate_npv": -278713.0282479967,
+        "immediate_decision_value": 0.0,
+        "pure_deferral_premium": 366264.39474136406,
+        "gain_vs_forced_immediate": 644977.4229893608,
+        "avoided_negative_npv": 278713.0282479967
+      },
+      "joint": {
+        "option_value": 1131269.8977070653,
+        "exercise_rate": 0.7288,
+        "mean_exercise_time": 3.230515916575192,
+        "immediate_npv": 882436.3608734673,
+        "immediate_decision_value": 882436.3608734673,
+        "pure_deferral_premium": 248833.53683359805,
+        "gain_vs_forced_immediate": 248833.53683359805,
+        "avoided_negative_npv": 0.0
+      }
+    },
+    "switching_no_restitution": {
+      "pv": {
+        "option_value": 657487.7382162358,
+        "exercise_rate": 0.5188,
+        "mean_exercise_time": 4.8535080956052425,
+        "immediate_npv": 24986.941532661207,
+        "immediate_decision_value": 24986.941532661207,
+        "pure_deferral_premium": 632500.7966835746,
+        "gain_vs_forced_immediate": 632500.7966835746,
+        "avoided_negative_npv": 0.0
+      },
+      "joint": {
+        "option_value": 1635233.8918188466,
+        "exercise_rate": 0.7604,
+        "mean_exercise_time": 3.2827459231983167,
+        "immediate_npv": 1361698.58328602,
+        "immediate_decision_value": 1361698.58328602,
+        "pure_deferral_premium": 273535.3085328266,
+        "gain_vs_forced_immediate": 273535.3085328266,
+        "avoided_negative_npv": 0.0
+      }
+    },
+    "switching_with_restitution": {
+      "pv": {
+        "option_value": 377073.23077650875,
+        "exercise_rate": 0.1626,
+        "mean_exercise_time": 7.234932349323493,
+        "immediate_npv": -2276872.094450804,
+        "immediate_decision_value": 0.0,
+        "pure_deferral_premium": 377073.23077650875,
+        "gain_vs_forced_immediate": 2653945.3252273127,
+        "avoided_negative_npv": 2276872.094450804
+      },
+      "joint": {
+        "option_value": 929210.0637190945,
+        "exercise_rate": 0.3022,
+        "mean_exercise_time": 6.167438782263401,
+        "immediate_npv": -1136126.2903457885,
+        "immediate_decision_value": 0.0,
+        "pure_deferral_premium": 929210.0637190945,
+        "gain_vs_forced_immediate": 2065336.354064883,
+        "avoided_negative_npv": 1136126.2903457885
+      }
+    }
+  },
+  "operating": {
+    "pv": {
+      "spot_only": 2060178.6329952125,
+      "mep_only": 2115043.6595224296,
+      "switch_old_4yr": 2122333.551775265,
+      "switch_new_1yr": 2123127.905549196,
+      "premium_new": 8084.2460267664865,
+      "decree_gain": 794.3537739310414
+    },
+    "bess_energy": {
+      "spot_only": 863674.7816029963,
+      "mep_only": 864360.5634747692,
+      "switch_old_4yr": 869541.8822891653,
+      "switch_new_1yr": 870164.6193669132,
+      "premium_new": 5804.055892143981,
+      "decree_gain": 622.7370777479373
+    },
+    "joint": {
+      "spot_only": 3870565.3309462206,
+      "mep_only": 3926116.13934521,
+      "switch_old_4yr": 3937583.2896489096,
+      "switch_new_1yr": 3938873.7096542115,
+      "premium_new": 12757.570309001487,
+      "decree_gain": 1290.420005301945
+    }
+  }
+}

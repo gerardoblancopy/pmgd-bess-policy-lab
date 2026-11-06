@@ -1,0 +1,17 @@
+.git
+.vercel
+node_modules
+.next*
+out
+build
+coverage
+.claude
+.codex
+.agents
+.env*
+*.pem
+*.tsbuildinfo
+.DS_Store
+*.log
+*.pdf
+**/*.pdf
